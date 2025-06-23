@@ -1,0 +1,11 @@
+https://readdy.ai/api/search-image?query=elegant%20Japanese%20modern%20bar%20interior%20with%20purple%20and%20gold%20accents%2C%20soft%20lighting%2C%20traditional%20Japanese%20patterns%20with%20a%20luxury%20feel%2C%20atmospheric%2C%20high-end%2C%20sophisticated%20design&width=375&height=300&seq=1&orientation=landscape
+https://readdy.ai/api/search-image?query=modern%20Japanese%20interior%20design%20element%20with%20purple%20and%20gold%20accents%2C%20zen%20aesthetic%2C%20minimalist%2C%20elegant&width=180&height=120&seq=2&orientation=landscape
+https://readdy.ai/api/search-image?query=elegant%20cocktail%20with%20Japanese%20ingredients%2C%20purple%20color%2C%20gold%20rim%20glass%2C%20artistic%20presentation&width=180&height=120&seq=3&orientation=landscape
+https://readdy.ai/api/search-image?query=premium%20Japanese%20sake%20in%20elegant%20serving%20set%2C%20traditional%20ceramic%20cup%2C%20high-end%20presentation&width=150&height=100&seq=4&orientation=landscape
+https://readdy.ai/api/search-image?query=luxury%20whisky%20glass%20with%20ice%2C%20premium%20Japanese%20whisky%2C%20elegant%20presentation&width=150&height=100&seq=5&orientation=landscape
+https://readdy.ai/api/search-image?query=purple%20cocktail%20with%20gold%20garnish%2C%20artistic%20Japanese%20style%20presentation%2C%20luxury%20bar%20drink&width=150&height=100&seq=6&orientation=landscape
+https://readdy.ai/api/search-image?query=elegant%20Japanese%20appetizer%20plate%2C%20small%20bites%2C%20artistic%20presentation%2C%20luxury%20bar%20food&width=150&height=100&seq=7&orientation=landscape
+https://readdy.ai/api/search-image?query=elegant%20Japanese%20woman%20in%20modern%20kimono%20inspired%20outfit%2C%20professional%20portrait%2C%20soft%20lighting%2C%20luxury%20bar%20setting&width=140&height=180&seq=8&orientation=portrait
+https://readdy.ai/api/search-image?query=elegant%20Japanese%20woman%20in%20modern%20stylish%20outfit%2C%20professional%20portrait%2C%20soft%20lighting%2C%20luxury%20bar%20setting&width=140&height=180&seq=9&orientation=portrait
+https://readdy.ai/api/search-image?query=elegant%20Japanese%20woman%20in%20contemporary%20fashion%2C%20professional%20portrait%2C%20soft%20lighting%2C%20luxury%20bar%20setting&width=140&height=180&seq=10&orientation=portrait
+https://public.readdy.ai/gen_page/map_placeholder_1280x720.png

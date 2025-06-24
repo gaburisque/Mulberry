@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Mulberry - 八王子の和モダンガールズバー</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#4A154B',secondary:'#C0A960'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" rel="stylesheet"/>
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+body {
+font-family: 'Noto Serif JP', serif;
+background-color: #FFFFFF;
+}
+.logo {
+font-family: 'Pacifico', serif;
+}
+.section-title {
+position: relative;
+display: inline-block;
+margin-bottom: 1.5rem;
+}
+.section-title::after {
+content: "";
+position: absolute;
+bottom: -10px;
+left: 50%;
+transform: translateX(-50%);
+width: 60px;
+height: 2px;
+background-color: #C0A960;
+}
+.menu-item {
+transition: transform 0.3s ease;
+}
+.menu-item:hover {
+transform: translateY(-5px);
+}
+.fade-in {
+opacity: 0;
+transform: translateY(20px);
+transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.fade-in.visible {
+opacity: 1;
+transform: translateY(0);
+}
+</style>
+</head>
+<body class="bg-white">
+<!-- Nav Bar -->
+<nav class="fixed w-full top-0 bg-black bg-opacity-80 backdrop-blur-sm z-50 px-4 py-3">
+<div class="flex justify-between items-center">
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-menu-line text-white ri-lg"></i>
+</div>
+<div class="logo text-white text-xl">Mulberry</div>
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-phone-line text-white ri-lg"></i>
+</div>
+</div>
+</nav>
+<!-- Main Content Area -->
+<div class="pt-16 pb-16"> <!-- Space for fixed nav and tab bar -->
+<!-- Hero Section -->
+<div class="relative h-[300px] overflow-hidden">
+<img alt="Mulberry Bar Interior" class="w-full h-full object-cover" src="downloaded_images/img_1.jpg"/>
+<div class="absolute inset-0 bg-primary bg-opacity-50 flex flex-col justify-center items-center text-white">
+<h1 class="logo text-4xl mb-2">Mulberry</h1>
+<p class="text-sm tracking-wider">八王子の和モダンガールズバー</p>
+<div class="absolute bottom-4 left-0 right-0 flex justify-center">
+<div class="bg-black bg-opacity-70 px-4 py-2 rounded-full text-xs">
+営業時間: 20:00〜翌5:00 | 定休日: 月曜日
+</div>
+</div>
+</div>
+</div>
+<!-- Concept Section -->
+<section class="px-4 py-8 fade-in">
+<h2 class="text-center text-xl font-medium section-title text-primary">CONCEPT</h2>
+<p class="text-sm leading-relaxed mt-6 text-gray-800">
+Mulberryは、伝統的な和の美意識と現代的なラグジュアリーを融合させた新しいスタイルのガールズバーです。桑の実のように深く豊かな時間を過ごせる空間で、厳選された日本酒やオリジナルカクテルと共に、洗練されたおもてなしをお楽しみいただけます。
+</p>
+<div class="mt-6 grid grid-cols-2 gap-3">
+<img alt="和モダンの内装" class="w-full h-[120px] object-cover rounded" src="downloaded_images/img_2.jpg"/>
+<img alt="特製カクテル" class="w-full h-[120px] object-cover rounded" src="downloaded_images/img_3.jpg"/>
+</div>
+</section>
+<!-- Menu Section -->
+<section class="px-4 py-8 bg-gray-50 fade-in">
+<h2 class="text-center text-xl font-medium section-title text-primary">MENU</h2>
+<div class="mt-6 grid grid-cols-2 gap-4">
+<div class="menu-item bg-white p-3 rounded-lg shadow-sm">
+<div class="h-[100px] mb-2 overflow-hidden rounded">
+<img alt="日本酒" class="w-full h-full object-cover" src="downloaded_images/img_4.jpg"/>
+</div>
+<h3 class="text-sm font-medium text-primary">厳選日本酒</h3>
+<p class="text-xs text-gray-600">¥1,200〜</p>
+</div>
+<div class="menu-item bg-white p-3 rounded-lg shadow-sm">
+<div class="h-[100px] mb-2 overflow-hidden rounded">
+<img alt="ウイスキー" class="w-full h-full object-cover" src="downloaded_images/img_5.jpg"/>
+</div>
+<h3 class="text-sm font-medium text-primary">プレミアムウイスキー</h3>
+<p class="text-xs text-gray-600">¥1,500〜</p>
+</div>
+<div class="menu-item bg-white p-3 rounded-lg shadow-sm">
+<div class="h-[100px] mb-2 overflow-hidden rounded">
+<img alt="オリジナルカクテル" class="w-full h-full object-cover" src="downloaded_images/img_6.jpg"/>
+</div>
+<h3 class="text-sm font-medium text-primary">オリジナルカクテル</h3>
+<p class="text-xs text-gray-600">¥1,300〜</p>
+</div>
+<div class="menu-item bg-white p-3 rounded-lg shadow-sm">
+<div class="h-[100px] mb-2 overflow-hidden rounded">
+<img alt="おつまみ" class="w-full h-full object-cover" src="downloaded_images/img_7.jpg"/>
+</div>
+<h3 class="text-sm font-medium text-primary">和風おつまみ</h3>
+<p class="text-xs text-gray-600">¥800〜</p>
+</div>
+</div>
+<div class="mt-6 text-center">
+<button class="bg-primary text-white px-6 py-2 rounded-button text-sm">
+メニューをもっと見る
+</button>
+</div>
+</section>
+<!-- Cast Section -->
+<section class="px-4 py-8 fade-in">
+<h2 class="text-center text-xl font-medium section-title text-primary">CAST</h2>
+<div class="mt-6 flex overflow-x-auto pb-4 space-x-4">
+<div class="flex-shrink-0 w-[140px]">
+<div class="w-[140px] h-[180px] rounded-lg overflow-hidden mb-2">
+<img alt="さくら" class="w-full h-full object-cover" src="downloaded_images/img_8.jpg"/>
+</div>
+<h3 class="text-sm font-medium text-center text-primary">さくら</h3>
+<p class="text-xs text-center text-gray-600">チーフ</p>
+</div>
+<div class="flex-shrink-0 w-[140px]">
+<div class="w-[140px] h-[180px] rounded-lg overflow-hidden mb-2">
+<img alt="みゆき" class="w-full h-full object-cover" src="downloaded_images/img_9.jpg"/>
+</div>
+<h3 class="text-sm font-medium text-center text-primary">みゆき</h3>
+<p class="text-xs text-center text-gray-600">バーテンダー</p>
+</div>
+<div class="flex-shrink-0 w-[140px]">
+<div class="w-[140px] h-[180px] rounded-lg overflow-hidden mb-2">
+<img alt="あやか" class="w-full h-full object-cover" src="downloaded_images/img_10.jpg"/>
+</div>
+<h3 class="text-sm font-medium text-center text-primary">あやか</h3>
+<p class="text-xs text-center text-gray-600">ホステス</p>
+</div>
+</div>
+</section>
+<!-- Access Section -->
+<section class="px-4 py-8 bg-gray-50 fade-in">
+<h2 class="text-center text-xl font-medium section-title text-primary">ACCESS</h2>
+<div class="mt-6 bg-white rounded-lg overflow-hidden shadow-sm">
+<div class="h-[180px] relative">
+<img alt="地図" class="w-full h-full object-cover" src="downloaded_images/img_11.jpg"/>
+<div class="absolute inset-0 flex items-center justify-center">
+<button class="bg-primary text-white px-4 py-2 rounded-button text-sm">
+<i class="ri-map-pin-line mr-1"></i> 地図を開く
+</button>
+</div>
+</div>
+<div class="p-4">
+<p class="text-sm font-medium text-primary">Mulberry</p>
+<p class="text-xs text-gray-700 mt-1">
+〒192-0082<br/>
+東京都八王子市東町12-8 サンライズビル 3F<br/>
+JR八王子駅から徒歩5分
+</p>
+<div class="mt-3 flex justify-between">
+<button class="bg-primary text-white px-4 py-2 rounded-button text-xs flex items-center">
+<i class="ri-phone-line mr-1"></i> 電話する
+</button>
+<button class="bg-secondary text-white px-4 py-2 rounded-button text-xs flex items-center">
+<i class="ri-calendar-line mr-1"></i> 予約する
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Information Section -->
+<section class="px-4 py-8 fade-in">
+<h2 class="text-center text-xl font-medium section-title text-primary">INFORMATION</h2>
+<div class="mt-6 space-y-4">
+<div class="bg-white p-4 rounded-lg shadow-sm">
+<h3 class="text-sm font-medium text-primary flex items-center">
+<i class="ri-time-line mr-2 w-5 h-5 flex items-center justify-center"></i>
+営業時間
+</h3>
+<p class="text-xs text-gray-700 mt-2 pl-7">
+20:00〜翌5:00（L.O. 4:30）<br/>
+定休日: 月曜日（祝日の場合は営業）
+</p>
+</div>
+<div class="bg-white p-4 rounded-lg shadow-sm">
+<h3 class="text-sm font-medium text-primary flex items-center">
+<i class="ri-money-dollar-circle-line mr-2 w-5 h-5 flex items-center justify-center"></i>
+料金システム
+</h3>
+<p class="text-xs text-gray-700 mt-2 pl-7">
+入場料: ¥2,000（1ドリンク付き）<br/>
+セット料金: ¥4,000/60分（飲み放題）<br/>
+延長料金: ¥2,000/30分
+</p>
+</div>
+<div class="bg-white p-4 rounded-lg shadow-sm">
+<h3 class="text-sm font-medium text-primary flex items-center">
+<i class="ri-information-line mr-2 w-5 h-5 flex items-center justify-center"></i>
+ご利用案内
+</h3>
+<p class="text-xs text-gray-700 mt-2 pl-7">
+・20歳未満の方はご入場いただけません<br/>
+・カード決済可能（VISA, Master, JCB, AMEX）<br/>
+・完全禁煙<br/>
+・団体予約承ります（最大10名様）
+</p>
+</div>
+</div>
+</section>
+<!-- SNS Section -->
+<section class="px-4 py-8 bg-primary text-white fade-in">
+<h2 class="text-center text-xl font-medium mb-6">FOLLOW US</h2>
+<div class="flex justify-center space-x-6">
+<a class="w-12 h-12 rounded-full bg-white bg-opacity-20 flex items-center justify-center" href="#">
+<i class="ri-instagram-line ri-xl"></i>
+</a>
+<a class="w-12 h-12 rounded-full bg-white bg-opacity-20 flex items-center justify-center" href="#">
+<i class="ri-twitter-x-line ri-xl"></i>
+</a>
+<a class="w-12 h-12 rounded-full bg-white bg-opacity-20 flex items-center justify-center" href="#">
+<i class="ri-line-line ri-xl"></i>
+</a>
+</div>
+<div class="mt-6 text-center">
+<p class="text-xs opacity-80">© 2025 Mulberry All Rights Reserved.</p>
+</div>
+</section>
+</div>
+<!-- Tab Bar -->
+<div class="fixed bottom-0 w-full bg-white border-t border-gray-200 px-2 py-1 grid grid-cols-4">
+<a class="flex flex-col items-center justify-center py-1 cursor-pointer" href="#">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-home-5-line text-primary"></i>
+</div>
+<span class="text-[10px] mt-1 text-primary">ホーム</span>
+</a>
+<a class="flex flex-col items-center justify-center py-1 cursor-pointer" data-readdy="true" href="https://readdy.ai/home/e661edbe-cae0-4d83-b16e-d8629ec8940b/9e741fbe-62c8-4bb8-9b5e-e04f2539e951">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-wine-line text-gray-500"></i>
+</div>
+<span class="text-[10px] mt-1 text-gray-500">メニュー</span>
+</a>
+<a class="flex flex-col items-center justify-center py-1 cursor-pointer" href="#">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-user-line text-gray-500"></i>
+</div>
+<span class="text-[10px] mt-1 text-gray-500">キャスト</span>
+</a>
+<a class="flex flex-col items-center justify-center py-1 cursor-pointer" href="#">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-calendar-line text-gray-500"></i>
+</div>
+<span class="text-[10px] mt-1 text-gray-500">予約</span>
+</a>
+</div>
+<!-- Reservation Modal -->
+<div class="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 hidden" id="reservationModal">
+<div class="bg-white rounded-lg w-[320px] p-5">
+<div class="flex justify-between items-center mb-4">
+<h3 class="text-lg font-medium text-primary">ご予約</h3>
+<button class="w-8 h-8 flex items-center justify-center" id="closeModal">
+<i class="ri-close-line text-gray-500 ri-lg"></i>
+</button>
+</div>
+<form>
+<div class="mb-3">
+<label class="block text-xs text-gray-700 mb-1">お名前</label>
+<input class="w-full px-3 py-2 border border-gray-300 rounded-button text-sm" placeholder="山田 太郎" type="text"/>
+</div>
+<div class="mb-3">
+<label class="block text-xs text-gray-700 mb-1">電話番号</label>
+<input class="w-full px-3 py-2 border border-gray-300 rounded-button text-sm" placeholder="090-1234-5678" type="tel"/>
+</div>
+<div class="mb-3">
+<label class="block text-xs text-gray-700 mb-1">ご来店日</label>
+<input class="w-full px-3 py-2 border border-gray-300 rounded-button text-sm" type="date" value="2025-06-22"/>
+</div>
+<div class="mb-3">
+<label class="block text-xs text-gray-700 mb-1">ご来店時間</label>
+<select class="w-full px-3 py-2 border border-gray-300 rounded-button text-sm appearance-none bg-white">
+<option>20:00</option>
+<option>21:00</option>
+<option>22:00</option>
+<option>23:00</option>
+<option>0:00</option>
+</select>
+</div>
+<div class="mb-3">
+<label class="block text-xs text-gray-700 mb-1">人数</label>
+<select class="w-full px-3 py-2 border border-gray-300 rounded-button text-sm appearance-none bg-white">
+<option>1名</option>
+<option>2名</option>
+<option>3名</option>
+<option>4名</option>
+<option>5名以上</option>
+</select>
+</div>
+<div class="mb-4">
+<label class="block text-xs text-gray-700 mb-1">ご要望</label>
+<textarea class="w-full px-3 py-2 border border-gray-300 rounded-button text-sm" placeholder="ご要望があればご記入ください" rows="3"></textarea>
+</div>
+<button class="w-full bg-primary text-white py-3 rounded-button text-sm" type="submit">予約を確定する</button>
+</form>
+</div>
+</div>
+<!-- FAB for reservation -->
+<div class="fixed right-4 bottom-20 z-40">
+<button class="w-14 h-14 rounded-full bg-secondary text-white shadow-lg flex items-center justify-center cursor-pointer" id="reservationButton">
+<i class="ri-calendar-fill ri-xl"></i>
+</button>
+</div>
+<script id="fadeInAnimation">
+document.addEventListener('DOMContentLoaded', function() {
+const fadeElements = document.querySelectorAll('.fade-in');
+const observer = new IntersectionObserver((entries) => {
+entries.forEach(entry => {
+if (entry.isIntersecting) {
+entry.target.classList.add('visible');
+}
+});
+}, {
+threshold: 0.1
+});
+fadeElements.forEach(element => {
+observer.observe(element);
+});
+});
+</script>
+<script id="modalControl">
+document.addEventListener('DOMContentLoaded', function() {
+const modal = document.getElementById('reservationModal');
+const openButton = document.getElementById('reservationButton');
+const closeButton = document.getElementById('closeModal');
+const reservationButtons = document.querySelectorAll('.bg-secondary');
+function openModal() {
+modal.classList.remove('hidden');
+document.body.style.overflow = 'hidden';
+}
+function closeModal() {
+modal.classList.add('hidden');
+document.body.style.overflow = '';
+}
+openButton.addEventListener('click', openModal);
+reservationButtons.forEach(button => {
+button.addEventListener('click', openModal);
+});
+closeButton.addEventListener('click', closeModal);
+modal.addEventListener('click', function(e) {
+if (e.target === modal) {
+closeModal();
+}
+});
+});
+</script>
+</body>
+</html>
